@@ -110,7 +110,7 @@ const AddToCartBtn = ({
                 quantity: 1,
               })
             );
-            toast.success('Added to favorites successfully');
+            toast.success('Added to product successfully');
           }}
           className={newClassName}
         >

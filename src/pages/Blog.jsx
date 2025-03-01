@@ -15,14 +15,14 @@ const Blog = () => {
               <img
                 src={item?.image}
                 alt="blogImage"
-                className="w-full h-auto object-cover group-hover:scale-110 duration-300"
+                className="w-full h-96 object-cover group-hover:scale-110 duration-300"
               />
             </div>
             <div className="mt-5">
               <p className="text-sm uppercase font-medium text-gray-500">
                 {item?._base}
               </p>
-              <p className="text-2xl font-bold line-clamp-1">{item?.title}</p>
+              <p className="text-2xl font-bold line-clamp-1 ">{item?.title}</p>
             </div>
           </div>
         ))}
